@@ -1,0 +1,78 @@
+/* Resolve the same faces Notes.app uses on macOS */
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text'),
+    local('SFProText-Regular'),
+    local('.SFNS-Regular'),
+    local('SFNS-Regular');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Medium'),
+    local('SFProText-Medium'),
+    local('.SFNS-Medium');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Semibold'),
+    local('SFProText-Semibold'),
+    local('.SFNS-Semibold');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Bold'),
+    local('SFProText-Bold'),
+    local('.SFNS-Bold');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display'),
+    local('SFProDisplay-Regular'),
+    local('.SFNS-Regular');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Bold'),
+    local('SFProDisplay-Bold'),
+    local('.SFNS-Bold');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  src:
+    local('SF Mono'),
+    local('SFMono-Regular'),
+    local('Menlo');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
